@@ -1,6 +1,6 @@
-# My Project
+# jest-isequal-undefined-array-element
 
-Describe your project here.
+Reproduces facebook/jest issue 13885: isEqual ignores trailing undefineds in arrays
 
 ## Requirements
 
@@ -12,8 +12,10 @@ Describe your project here.
 - Clone the repo
 - Run `yarn install`
 
-Dependencies are locked with `yarn.lock`; please use `yarn` rather than `npm` for installing.
-
 ## Unit Tests
 
 - Run `yarn test`
+
+## License
+
+MIT

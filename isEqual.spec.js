@@ -1,6 +1,7 @@
 describe('isEqual', () => {
   it('ignores trailing undefineds, but should it?', () => {
     expect([1, 2]).toEqual([1, 2, undefined]);
+    expect([1, 2]).toEqual([1, 2, undefined, undefined, undefined]);
   });
 
   it('does not ignore leading and middle undefineds', () => {
